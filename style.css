@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: red;
+  padding: 10px;
+}
+
+.app-dots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+}
+
+.app-dot {
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.site-link {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.bell-icon {
+  background-color: rgb(46, 45, 45);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+}
