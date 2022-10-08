@@ -16,10 +16,9 @@
     <main class="container">
       <!-- Header fot the site -->
       <header>
-        <a href="#" class="site-link">Gwendolyn</a>
-        <a href="https//:gmail.com" class="site-link">Gmail</a>
-        <a href="#" class="site-link">Images</a>
-        <a href="#" class="site-link">
+        <a href="https//:gmail.com" class="site-link gmail-link">Gmail</a>
+        <a href="#" class="site-link image-link">Images</a>
+        <a href="#" class="site-link app-link">
           <div class="app-dots">
             <div class="app-dot"></div>
             <div class="app-dot"></div>
@@ -39,11 +38,55 @@
         </a>
 
         <a href="#" class="site-link">
-          <div class="user-icon">
-            <i class="fas fa-user"> </i>
+          <div class="user-icon-outside">
+            <div class="user-icon-inside">
+              <div class="user-icon">
+                <i class="fas fa-user"> </i>
+              </div>
+            </div>
           </div>
         </a>
       </header>
+      <!-- End of Site Header -->
+
+      <!-- Site main body -->
+      <section class="body">
+        <!-- GOOGLE LOGO -->
+        <div class="google-logo">
+          <p class="google-letters">
+            <span class="letter g-letter1">G</span>
+            <span class="letter o-letter1">o</span>
+            <span class="letter o-letter2">o</span>
+            <span class="letter g-letter2">g</span>
+            <span class="letter l-letter">l</span>
+            <span class="letter e-letter">e</span>
+          </p>
+        </div>
+        <!-- END OF GOOGLE LOGO -->
+
+        <!-- SEARCH BOX -->
+        <div class="search-box">
+          <article class="search-icon">
+            <i class="fas fa-search"></i>
+          </article>
+          <input type="text" name="search" id="search" />
+          <article class="clear-icon">
+            <i class="fas fa-times"></i>
+          </article>
+          <article class="mic-icon">
+            <i class="fas fa-microphone"></i>
+          </article>
+        </div>
+        <!-- END OF SEARCH BOX -->
+
+        <!-- Other Content -->
+
+        <!-- End of Other Content -->
+      </section>
+      <!-- End of Site main body -->
     </main>
+
+    <!-- JavaScript Link -->
+    <script src="./main.js"></script>
   </body>
 </html>

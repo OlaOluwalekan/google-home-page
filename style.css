@@ -1,16 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* HEADER STYLES */
 header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  background-color: red;
+  /* background-color: red; */
   padding: 10px;
+}
+
+.app-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.app-link:hover {
+  background-color: lightgray;
 }
 
 .app-dots {
@@ -20,8 +36,8 @@ header {
 }
 
 .app-dot {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   background-color: black;
   border-radius: 50%;
 }
@@ -29,6 +45,7 @@ header {
 .site-link {
   margin: 0 10px;
   text-decoration: none;
+  color: black;
 }
 
 .bell-icon {
@@ -42,3 +59,127 @@ header {
   font-size: 12px;
   color: white;
 }
+
+.bell-icon:hover {
+  background-color: gray;
+}
+
+.user-icon-inside {
+  background-color: white;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.user-icon-outside {
+  /* background-color: blue; */
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.user-icon {
+  background-color: rgb(46, 45, 45);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+}
+
+.user-icon-outside:hover {
+  background-color: grey;
+}
+
+.image-link:hover,
+.gmail-link:hover {
+  text-decoration: underline;
+}
+/* END OF HEADER STYLES */
+
+/* MAIN CONTENET STYLES */
+.body {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.google-letters {
+  /* color: blue; */
+  letter-spacing: -3px;
+  margin: 10px 0;
+}
+
+.letter {
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+/* LETTER STYLES */
+.g-letter1,
+.g-letter2 {
+  color: #4542ff;
+}
+
+.o-letter1,
+.e-letter {
+  color: rgb(255, 46, 46);
+}
+
+.o-letter2 {
+  color: rgb(182, 182, 1);
+}
+
+.l-letter {
+  color: green;
+}
+/* END OF LETTER STYLES */
+
+/* SEARCH STYLES */
+.search-box {
+  width: 90vw;
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid #c4c3c3;
+  /* background-color: palevioletred; */
+  margin: 10px 0;
+}
+
+.search-box input {
+  width: 80%;
+  font-size: 20px;
+  background: none;
+  border: none;
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+.search-box:hover {
+  box-shadow: 0px 3px 5px #cfcfcf;
+}
+
+.search-icon,
+.mic-icon,
+.clear-icon {
+  color: #afadad;
+}
+
+.clear-icon {
+  display: none;
+}
+
+/* END OF SEARCH STYLES */
+
+/* END OF MAIN CONTENET STYLES */
